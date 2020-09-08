@@ -3,13 +3,14 @@
 		[
 			"@babel/plugin-proposal-decorators",
 			{
-				"legacy": true
+				"legacy": false,
+				"decoratorsBeforeExport": true
 			}
 		],
 		[
 			"@babel/plugin-proposal-class-properties",
 			{
-				"loose": true
+				"loose": false
 			}
 		]
 	]
